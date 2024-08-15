@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 30px 50px;
+text-align: center;
+}
+.Question--box{
+  max-width: 70%;
+  margin: 5px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.Question--box>h2{
+  text-align: left;
+  color: #293264;
+  font-size: 20px;
+}
+.answer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.answer>span{
+  border: 1px solid #293264;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 14px;
+  color: #293264;
+}
+.selected{
+  background-color: #D6DBF5;
+  color: white;
+}
+.btn{
+  background-color: #293264;
+  color: white;
+  padding:8px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #D6DBF5;
+  cursor: pointer;
+}
+.correct {
+  background-color: rgb(165, 196, 165);
+  color: white;
+}
+
+.incorrect {
+  background-color: rgb(203, 167, 167);
+  color: white;
+}
+
+.selected {
+  border: 2px solid blue;
+}
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
